@@ -80,11 +80,6 @@ img {
   width: 940px;
 }
 
-.hero {
-  height: 100vh;
-  min-height: 650px;
-}
-
 .hero__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,7 +127,7 @@ img {
   position: absolute;
   width: 498px;
   height: 498px;
-  background: url(../../img/headphones.png) center top 1px no-repeat, #FFFFFF;
+  background: url(../img/headphones.png) center top 1px no-repeat, #FFFFFF;
   background-size: 97%;
   border-radius: 50%;
   z-index: -100;
@@ -303,7 +298,7 @@ img {
 }
 .benifints__item::after {
   content: "";
-  background: url(../../img/separator.svg);
+  background: url(../img/separator.svg);
   position: absolute;
   width: 68px;
   height: 22px;
@@ -467,7 +462,7 @@ img {
 }
 
 .delivery {
-  background: url(../../img/bg.png) bottom no-repeat, #161616;
+  background: url(../img/bg.png) bottom no-repeat, #161616;
   background-size: 80%;
 }
 

@@ -1,5 +1,11 @@
 html {
-	font-size: 16px;
+	font-size: rem(16px);
+	@include tablets {
+		font-size: $baseFontSize -1px;
+	}
+	@include phones {
+		font-size: $baseFontSize -2px;
+	}
 }
 
 body,
@@ -10,7 +16,7 @@ html {
 body {
 	font-family: "Play", Helvetica, sans-serif;
     color: #292929;
-    font-size: 16px;
+    font-size: rem(16px);
     line-height: 1.42;
     background: #F5F5F5;
     -webkit-font-smoothing: antialiased;
@@ -64,7 +70,6 @@ img {
 .wrapper {
 	position: relative;
     width: 100%;
-    min-width: $containerWidth + 20px;
     min-height: 100%;
     overflow: hidden;
 }
@@ -73,5 +78,12 @@ img {
 
 .container {
     margin: 0 auto;
-    width: $containerWidth;
+    max-width: $containerWidth;
+	width: 95%;
+	position: relative;
+}
+@media (max-width: 768px) {
+    .container {
+        max-width:rem(696px)+rem(20px);
+    }
 }

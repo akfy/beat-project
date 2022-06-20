@@ -1,7 +1,7 @@
 .delivery__container {
     display: flex;
     flex-direction: column;
-    padding: 68px 81px;
+    
     justify-content: center;
     height: 100%;
     background-size: 93%;
@@ -14,9 +14,10 @@
 }
 .main__title--delivery {
     
-    margin-bottom: 61px;
+    margin-bottom: rem(61px);
     text-align: center;
     color: #FFFFFF;
+    text-align: center;
 }
 .delivery {
  

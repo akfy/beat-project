@@ -1,6 +1,15 @@
 $containerWidth: 940px;
 $baseFontSize: 16px;
 
+
+//brakepoints
+$tablets: 768px;
+$phones: 480px;
+
+
+
+
+@import "media";
 @import  url('./normolize.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
@@ -19,3 +28,7 @@ $baseFontSize: 16px;
 @import "components/delivery";
 @import "components/form";
 @import "components/section";
+@import "components/socials";
+@import "components/info";
+@import "components/footer";
+@import "components/map";

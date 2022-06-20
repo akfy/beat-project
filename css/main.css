@@ -152,7 +152,7 @@ img {
   position: absolute;
   width: 31.125rem;
   height: 31.125rem;
-  background: url(../../img/headphones.png) center top 0.0625rem no-repeat, #FFFFFF;
+  background: url(../img/headphones.png) center top 0.0625rem no-repeat, #FFFFFF;
   background-size: 97%;
   border-radius: 50%;
   z-index: -100;
@@ -1207,7 +1207,7 @@ img {
 }
 
 .info {
-  background: url(../../img/map.png) center center no-repeat;
+  background: url(../img/map.png) center center no-repeat;
   background-size: cover;
 }
 

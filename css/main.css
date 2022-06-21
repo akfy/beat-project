@@ -197,7 +197,7 @@ img {
   .hero__title {
     text-align: center;
     width: 100%;
-    margin-bottom: 1%;
+    margin-bottom: rem;
   }
 
   .hero__text-section {
@@ -219,8 +219,8 @@ img {
   .hero__subtitle {
     width: 70%;
     text-align: center;
-    padding: 0 10%;
-    margin-bottom: 2.5%;
+    padding: 0 2.5rem;
+    margin-bottom: 0.625rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -493,7 +493,7 @@ img {
 
 .why__subtitle {
   color: #666666;
-  padding: 0 26%;
+  padding: 0 2.5rem;
   text-align: center;
   margin-bottom: 3.4375rem;
 }
@@ -501,7 +501,7 @@ img {
 @media (max-width: 768px) {
   .why__subtitle {
     margin-bottom: 2.9rem;
-    padding: 0 10%;
+    padding: 0 1.125rem;
   }
 
   .main__title {
@@ -515,7 +515,7 @@ img {
   }
 
   .why__subtitle {
-    padding: 0 2%;
+    padding: 0 0.5rem;
   }
 }
 .benifits {
@@ -546,7 +546,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding: 0 3%;
+  padding: 0 0.625rem;
   text-align: center;
 }
 .benifints__item::after {
@@ -555,7 +555,7 @@ img {
   width: 4.25rem;
   height: 1.375rem;
   right: 0;
-  top: 20%;
+  top: 2.9375rem;
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
 }
@@ -638,7 +638,7 @@ img {
   }
 
   .benifits__title {
-    margin-bottom: 8%;
+    margin-bottom: 0.75rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -805,7 +805,7 @@ img {
 
   .review__content-text {
     text-align: center;
-    padding: 0 1%;
+    padding: 0 0.3125rem;
   }
 
   .review__content-text {
@@ -821,7 +821,7 @@ img {
   }
 
   .review__title {
-    margin-bottom: 2%;
+    margin-bottom: 0.625rem;
   }
 }
 @media (max-width: 480px) {
@@ -1115,7 +1115,7 @@ img {
 
   .form__input--textarea {
     height: 5.1875rem;
-    margin-bottom: 4%;
+    margin-bottom: 0.8125rem;
   }
 
   .btn--color--transparent {
@@ -1123,7 +1123,7 @@ img {
   }
 
   .controls {
-    margin-bottom: 7%;
+    margin-bottom: 1.375rem;
   }
 }
 @media (max-width: 480px) {
@@ -1247,14 +1247,14 @@ img {
   }
 
   .footer__contacts {
-    margin-bottom: 3%;
+    margin-bottom: 0.4375rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
 
   .footer__address {
-    margin-bottom: 3%;
+    margin-bottom: 0.4375rem;
   }
 }
 .map {

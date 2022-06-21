@@ -209,13 +209,13 @@
     }
     .form__input--textarea {
         height: rem(83px);
-        margin-bottom: 4%;
+        margin-bottom: rem(13px);
     }
     .btn--color--transparent{
         color:#E01F3D;
     }
     .controls{
-        margin-bottom: 7%;
+        margin-bottom: rem(22px)
     }
 }
 @media (max-width: 480px) {

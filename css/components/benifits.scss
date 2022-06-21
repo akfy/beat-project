@@ -17,7 +17,7 @@
     align-items: center;
     position: relative;
     
-    padding: 0 3%;
+    padding: 0 rem(10px);
     text-align: center;
     
    
@@ -30,7 +30,7 @@
         width: rem(68px);
         height: rem(22px);
         right: 0;
-        top: 20%;
+        top: rem(47px);
         transform: translateX(50%);
     }
 
@@ -102,7 +102,7 @@
        
     }
     .benifits__title{
-        margin-bottom: 8%;
+        margin-bottom: rem(12px);
     }
   
 }

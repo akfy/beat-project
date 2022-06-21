@@ -99,7 +99,7 @@
     }
     .review__content-text {
         text-align: center;
-        padding: 0 1%;
+        padding: 0 rem(5px);
 
     }
     .review__content-text {
@@ -112,7 +112,7 @@
         margin-bottom: rem(89px);
     }
     .review__title {
-        margin-bottom: 2%;
+        margin-bottom: rem(10px);
     }
 }
 @media (max-width: 480px)

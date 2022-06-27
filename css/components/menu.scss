@@ -4,7 +4,8 @@
     justify-content: center;
     margin-top: rem(2px);
 }
-.menu__link{
+
+.menu__link {
     white-space: nowrap;
 }
 
@@ -14,33 +15,56 @@
 
 .menu {
     margin: 0 rem(48px);
+
     @include tablets {
         display: none;
     }
 
 }
+
+
+
 .menu__hamburger {
     display: none;
     width: 26px;
     height: 100%;
-    
+
     flex-direction: column;
     justify-content: center;
+
     @include tablets {
         display: inline-flex;
     }
 }
+
 .hamburger__plank {
     display: block;
     background: #000;
     height: 4px;
     border-radius: 10px;
     margin-bottom: 5px;
-    &:last-child{
+
+    &:last-child {
         margin-bottom: 0;
     }
 
 }
+.fullscrean-menu>.menu {
+    display: flex;
+}
+.menu__list--vertical>.menu__item{
+
+    font-size: rem(36px);
+    line-height: rem(72px);
+    font-family: 'Play';
+    color: #FFFFFF;
+}
+.menu__list--vertical  {
+    flex-direction: column;
+    align-items: center;
+}
+
+
 // @media (max-width: 961px) {
 //     .menu__list {
 //         display: none;

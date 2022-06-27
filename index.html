@@ -9,7 +9,42 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
+
 <body>
+
+    <div class="fullscrean-menu">
+        <a href="#" class="close">
+            <svg class="close__icon">
+                <use xlink:href="./img/sprite.svg#xmark">
+                </use>
+            </svg>
+        </a>
+        <nav class="menu">
+            <ul class="menu__list menu__list--vertical">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">О нас</a>
+                </li>
+                <li class="menu__item ">
+                    <a href="#" class="menu__link">Наушники</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Команда</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Цвета</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Отзывы</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Как мы работаем</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="wrapper">
         <div class="maincontent">
             <section class="hero section">
@@ -154,6 +189,54 @@
                         </ul>
                     </div>
                 </div>
+            </section>
+            <section class="slyder section">
+                <div class="container slyder__container">
+                    <ul class="slyder__list">
+                        <li class="slyder__item offer">
+                            <div class="offer__image-wrapper">
+                                <img src="./img/offer1.png" alt="offer1" class="offer__img">
+                            </div>
+                            <div class="offer__content">
+                                <div class="offer__spec-bnt">
+                                    <svg class="spec-btn__icon">
+                                        <use xlink:href="./img/sprite.svg#gear">
+                                        </use>
+                                    </svg>
+                                </div>
+                                <h3 class="offer__title">beats solo 3. цвет 
+                                    «атласное серебро»</h3>
+                                <div class="offer__discription">
+                                    Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и поднесите к своему iPhone — они мгновенно подключатся к нему.
+                                </div>
+                                <ul class="offer__pros">
+                                    <li class="offer__pros-item">
+                                        <div class="offer__pros-title">
+                                            Зарядка
+                                        </div> 
+                                        <div class="offer__pros-text">
+                                            2  часа
+                                        </div>
+                                    </li>
+                                    <li class="offer__pros-item">
+                                        <div class="offer__pros-title">
+                                            Вес
+                                        </div> 
+                                        <div class="offer__pros-text">
+                                            215 грамм
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="offer_buy">
+                                    <div class="offer__price">14 990 ₽</div>
+                                    <button class="btn">заказать</button>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
             </section>
             <section class="reviews section">
                 <div class="container reviews__container">
@@ -316,6 +399,12 @@
 
         </div>
     </div>
+
+    
 </body>
 
+
+
+
 </html>
+<script src="./js/script.js"></script>

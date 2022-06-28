@@ -21,3 +21,23 @@ closeElement.addEventListener("click", e => {
   e.preventDefault();
   menu.style.display = "none";
 })
+
+const gearButton = document.querySelector(".offer__spec-bnt");
+const specsListElement = document.querySelector(".offer__specs");
+gearButton.addEventListener("mouseover", e => {
+  specsListElement.style.opacity = "1";
+  specsListElement.style.top = "0";
+  
+})
+gearButton.addEventListener("mouseout", e => {
+  specsListElement.style.opacity = "0"
+  specsListElement.style.top = "-999999px"
+})
+specsListElement.addEventListener("mouseover", e => {
+  specsListElement.style.opacity = "1";
+  specsListElement.style.top = "0";
+})
+specsListElement.addEventListener("mouseout", e => {
+  specsListElement.style.opacity = "0"
+  specsListElement.style.top = "-999999px"
+})

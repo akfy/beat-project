@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Beat</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 </head>
 
 
@@ -47,6 +49,12 @@
         </nav>
     </div>
     <div class="wrapper">
+        <div id="modal" class="modal">
+            <div class="modal__container">
+                <div class="modal__content"></div>
+                <button class="btn app-submit-btn">закрыть</button>
+            </div>
+        </div>
         <div class="maincontent">
             <section class="hero section">
                 <div class="container hero__container">
@@ -329,7 +337,7 @@
                                     <div class="offer__specs">
                                         <ul class="specs__list">
                                             <li class="specs__item">
-    
+
                                                 <div class="spec__icon-wrapper">
                                                     <svg class="specs__icon">
                                                         <use xlink:href="./img/sprite.svg#bluetooth">
@@ -340,7 +348,7 @@
                                                 <div class="specs__value">4.0</div>
                                             </li>
                                             <li class="specs__item">
-    
+
                                                 <div class="spec__icon-wrapper">
                                                     <svg class="specs__icon">
                                                         <use xlink:href="./img/sprite.svg#road">
@@ -351,7 +359,7 @@
                                                 <div class="specs__value">10 м</div>
                                             </li>
                                             <li class="specs__item">
-    
+
                                                 <div class="spec__icon-wrapper">
                                                     <svg class="specs__icon">
                                                         <use xlink:href="./img/sprite.svg#charger">
@@ -362,7 +370,7 @@
                                                 <div class="specs__value">2 ч</div>
                                             </li>
                                             <li class="specs__item">
-    
+
                                                 <div class="spec__icon-wrapper">
                                                     <svg class="specs__icon">
                                                         <use xlink:href="./img/sprite.svg#kg">
@@ -373,7 +381,7 @@
                                                 <div class="specs__value">215гр</div>
                                             </li>
                                             <li class="specs__item">
-    
+
                                                 <div class="spec__icon-wrapper">
                                                     <svg class="specs__icon">
                                                         <use xlink:href="./img/sprite.svg#patent">
@@ -384,8 +392,8 @@
                                                 <div class="specs__value">1 год</div>
                                             </li>
                                         </ul>
-                                </div>
-                               
+                                    </div>
+
 
                                 </div>
                                 <h3 class="offer__title">beats solo pro. цвет «красный цитрус»</h3>
@@ -432,7 +440,7 @@
                             </div>
                             <div class="team__item-title">
                                 <div class="team__item-name">Борис Федорович</div>
-                                
+
                             </div>
                             <div class="team__item-info">
                                 <div class="team__item-jobtitle">Главный технолог</div>
@@ -448,7 +456,7 @@
                             </div>
                             <div class="team__item-title">
                                 <div class="team__item-name">Алла Иванова</div>
-                                
+
                             </div>
                             <div class="team__item-info">
                                 <div class="team__item-jobtitle">Специалист по упаковке
@@ -466,7 +474,7 @@
                             </div>
                             <div class="team__item-title">
                                 <div class="team__item-name">Кирилл Матросов</div>
-                            
+
                             </div>
                             <div class="team__item-info">
                                 <div class="team__item-jobtitle">PR, маркетинг
@@ -484,7 +492,7 @@
                             </div>
                             <div class="team__item-title">
                                 <div class="team__item-name">Мила Рыжкова</div>
-                              
+
                             </div>
                             <div class="team__item-info">
                                 <div class="team__item-jobtitle">Оператор</div>
@@ -500,7 +508,7 @@
 
                             <div class="team__item-title">
                                 <div class="team__item-name">Борис Федорович</div>
-                                
+
                             </div>
                             <div class="team__item-info">
                                 <div class="team__avatar">
@@ -517,7 +525,7 @@
 
                             <div class="team__item-title">
                                 <div class="team__item-name">Алла Иванова</div>
-                              
+
                             </div>
                             <div class="team__item-info">
                                 <div class="team__avatar">
@@ -536,7 +544,7 @@
 
                             <div class="team__item-title">
                                 <div class="team__item-name">Кирилл Матросов</div>
-                                
+
                             </div>
                             <div class="team__item-info">
                                 <div class="team__avatar">
@@ -555,7 +563,7 @@
 
                             <div class="team__item-title">
                                 <div class="team__item-name">Мила Рыжкова</div>
-                               
+
                             </div>
                             <div class="team__item-info">
                                 <div class="team__avatar">
@@ -646,15 +654,16 @@
                 <div class="container delivery__container">
                     <h3 class="main__title main__title--delivery ">закажите доставку</h3>
                     <form class="form">
+                        <input type="hidden" name="to" value="akfyflan@gmail.com">
                         <div class="form__column">
                             <div class="form__row">
                                 <div class="form__item">
                                     <div class="form__item__label">Имя</div>
-                                    <input type="text" class="form__input form__input--normal">
+                                    <input type="text" name="name" class="form__input form__input--normal">
                                 </div>
                                 <div class="form__item">
                                     <div class="form__item__label">Телефон</div>
-                                    <input type="text" class="form__input form__input--normal">
+                                    <input type="text" name="phone" class="form__input form__input--normal">
                                 </div>
                             </div>
                             <div class="form__row">
@@ -685,8 +694,7 @@
                         <div class="form__column">
                             <div class="form__item">
                                 <div class="form__item__label">Комментарий</div>
-                                <textarea class="form__input form__input--textarea">
-                                </textarea>
+                                <textarea name="comment" class="form__input form__input--textarea"></textarea>
                             </div>
                             <div class="controls">
                                 <ul class="controls__list">
@@ -747,7 +755,8 @@
                                 <svg class="socials__img">
                                     <use xlink:href="./img/sprite.svg#vk">
                                     </use>
-                                </svg></a></li>
+                                </svg></a>
+                        </li>
                         <li class="socials__item socials__item--icon--facebook"><a href="" class="socials__link"><svg
                                     class="socials__img">
                                     <use xlink:href="./img/sprite.svg#f">
@@ -773,13 +782,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+   
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/team.js"></script>
     <script src="./js/slider.js"></script>
-    
+    <script src="./js/modal.js"></script>
+
     <script src="./js/reviews.js"></script>
 </body>
 

@@ -192,24 +192,29 @@
                 </div>
             </section>
             <section class="slyder section">
-                
-                
+
+
                 <div class="container slyder__container">
-                    <svg class="arrow arrow--left">
-                        <use xlink:href="./img/sprite.svg#arrow_left">
-                        </use>
-                    </svg>
-                    <svg class="arrow arrow--right">
-                        <use xlink:href="./img/sprite.svg#arrow_right">
-                        </use>
-                    </svg>
-                    
+                    <!-- <a href="#" class="control control--left"></a> -->
+                    <a id="left" class="control control--left">
+                        <svg class="arrow arrow--left">
+                            <use xlink:href="./img/sprite.svg#arrow_left">
+                            </use>
+                        </svg>
+                    </a>
+                    <a id="right" class="control control--right">
+                        <svg class="arrow arrow--right">
+                            <use xlink:href="./img/sprite.svg#arrow_right">
+                            </use>
+                        </svg>
+                    </a>
+
                     <ul class="slyder__list">
-                       
+
                         <li class="slyder__item offer">
                             <div class="offer__image-wrapper">
                                 <img src="./img/offer1.png" alt="offer1" class="offer__img">
-                                
+
                             </div>
                             <div class="offer__content">
                                 <div class="offer__spec-bnt">
@@ -217,69 +222,173 @@
                                         <use xlink:href="./img/sprite.svg#gear">
                                         </use>
                                     </svg>
+                                    <div class="offer__specs">
+                                        <ul class="specs__list">
+                                            <li class="specs__item">
+
+                                                <div class="spec__icon-wrapper">
+                                                    <svg class="specs__icon">
+                                                        <use xlink:href="./img/sprite.svg#bluetooth">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <div class="specs__name">Bluetooth</div>
+                                                <div class="specs__value">4.0</div>
+                                            </li>
+                                            <li class="specs__item">
+
+                                                <div class="spec__icon-wrapper">
+                                                    <svg class="specs__icon">
+                                                        <use xlink:href="./img/sprite.svg#road">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <div class="specs__name">Дальность </div>
+                                                <div class="specs__value">12 м</div>
+                                            </li>
+                                            <li class="specs__item">
+
+                                                <div class="spec__icon-wrapper">
+                                                    <svg class="specs__icon">
+                                                        <use xlink:href="./img/sprite.svg#charger">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <div class="specs__name">Зарядка</div>
+                                                <div class="specs__value">3 ч</div>
+                                            </li>
+                                            <li class="specs__item">
+
+                                                <div class="spec__icon-wrapper">
+                                                    <svg class="specs__icon">
+                                                        <use xlink:href="./img/sprite.svg#kg">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <div class="specs__name">Вес</div>
+                                                <div class="specs__value">215гр</div>
+                                            </li>
+                                            <li class="specs__item">
+
+                                                <div class="spec__icon-wrapper">
+                                                    <svg class="specs__icon">
+                                                        <use xlink:href="./img/sprite.svg#patent">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <div class="specs__name">Гарантия</div>
+                                                <div class="specs__value">1 год</div>
+                                            </li>
+                                        </ul>
+
+                                    </div>
                                 </div>
-                                <div class="offer__specs">
-                                    <ul class="specs__list">
-                                        <li class="specs__item">
 
-                                            <div class="spec__icon-wrapper">
-                                                <svg class="specs__icon">
-                                                    <use xlink:href="./img/sprite.svg#bluetooth">
-                                                    </use>
-                                                </svg>
-                                            </div>
-                                            <div class="specs__name">Bluetooth</div>
-                                            <div class="specs__value">4.0</div>
-                                        </li>
-                                        <li class="specs__item">
-
-                                            <div class="spec__icon-wrapper">
-                                                <svg class="specs__icon">
-                                                    <use xlink:href="./img/sprite.svg#road">
-                                                    </use>
-                                                </svg>
-                                            </div>
-                                            <div class="specs__name">Дальность </div>
-                                            <div class="specs__value">12 м</div>
-                                        </li>
-                                        <li class="specs__item">
-
-                                            <div class="spec__icon-wrapper">
-                                                <svg class="specs__icon">
-                                                    <use xlink:href="./img/sprite.svg#charger">
-                                                    </use>
-                                                </svg>
-                                            </div>
-                                            <div class="specs__name">Зарядка</div>
-                                            <div class="specs__value">3 ч</div>
-                                        </li>
-                                        <li class="specs__item">
-
-                                            <div class="spec__icon-wrapper">
-                                                <svg class="specs__icon">
-                                                    <use xlink:href="./img/sprite.svg#kg">
-                                                    </use>
-                                                </svg>
-                                            </div>
-                                            <div class="specs__name">Вес</div>
-                                            <div class="specs__value">215гр</div>
-                                        </li>
-                                        <li class="specs__item">
-
-                                            <div class="spec__icon-wrapper">
-                                                <svg class="specs__icon">
-                                                    <use xlink:href="./img/sprite.svg#patent">
-                                                    </use>
-                                                </svg>
-                                            </div>
-                                            <div class="specs__name">Гарантия</div>
-                                            <div class="specs__value">1 год</div>
-                                        </li>
-                                    </ul>
-                                    
-                                </div>
                                 <h3 class="offer__title">beats solo 3. цвет
                                     «атласное серебро»</h3>
+                                <div class="offer__discription">
+                                    Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и
+                                    поднесите к своему iPhone — они мгновенно подключатся к нему.
+                                </div>
+                                <ul class="offer__pros">
+                                    <li class="offer__pros-item">
+                                        <div class="offer__pros-title">
+                                            Зарядка
+                                        </div>
+                                        <div class="offer__pros-text">
+                                            2 часа
+                                        </div>
+                                    </li>
+                                    <li class="offer__pros-item">
+                                        <div class="offer__pros-title">
+                                            Вес
+                                        </div>
+                                        <div class="offer__pros-text">
+                                            215 грамм
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="offer__buy">
+                                    <div class="offer__price">14 990 ₽</div>
+                                    <button class="btn btn--buy">заказать</button>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="slyder__item offer">
+                            <div class="offer__image-wrapper">
+                                <img src="./img/offer2.png" alt="offer2" class="offer__img">
+
+                            </div>
+                            <div class="offer__content">
+                                <div class="offer__spec-bnt">
+                                    <svg class="spec-btn__icon">
+                                        <use xlink:href="./img/sprite.svg#gear">
+                                        </use>
+                                    </svg>
+                                    <div class="offer__specs">
+                                        <ul class="specs__list">
+                                            <li class="specs__item">
+    
+                                                <div class="spec__icon-wrapper">
+                                                    <svg class="specs__icon">
+                                                        <use xlink:href="./img/sprite.svg#bluetooth">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <div class="specs__name">Bluetooth</div>
+                                                <div class="specs__value">4.0</div>
+                                            </li>
+                                            <li class="specs__item">
+    
+                                                <div class="spec__icon-wrapper">
+                                                    <svg class="specs__icon">
+                                                        <use xlink:href="./img/sprite.svg#road">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <div class="specs__name">Дальность </div>
+                                                <div class="specs__value">10 м</div>
+                                            </li>
+                                            <li class="specs__item">
+    
+                                                <div class="spec__icon-wrapper">
+                                                    <svg class="specs__icon">
+                                                        <use xlink:href="./img/sprite.svg#charger">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <div class="specs__name">Зарядка</div>
+                                                <div class="specs__value">2 ч</div>
+                                            </li>
+                                            <li class="specs__item">
+    
+                                                <div class="spec__icon-wrapper">
+                                                    <svg class="specs__icon">
+                                                        <use xlink:href="./img/sprite.svg#kg">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <div class="specs__name">Вес</div>
+                                                <div class="specs__value">215гр</div>
+                                            </li>
+                                            <li class="specs__item">
+    
+                                                <div class="spec__icon-wrapper">
+                                                    <svg class="specs__icon">
+                                                        <use xlink:href="./img/sprite.svg#patent">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <div class="specs__name">Гарантия</div>
+                                                <div class="specs__value">1 год</div>
+                                            </li>
+                                        </ul>
+                                </div>
+                               
+
+                                </div>
+                                <h3 class="offer__title">beats solo pro. цвет «красный цитрус»</h3>
                                 <div class="offer__discription">
                                     Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и
                                     поднесите к своему iPhone — они мгновенно подключатся к нему.
@@ -313,35 +422,221 @@
                 </div>
 
             </section>
+            <section class="team section">
+                <div class="container team__container">
+                    <h1 class="main__title main__title--team">команда</h1>
+                    <ul class="team__list">
+                        <li class="team__item">
+                            <div class="team__avatar">
+                                <img src="./img/team/1.png" alt="boris" class="team__avatar-img">
+                            </div>
+                            <div class="team__item-title">
+                                <div class="team__item-name">Борис Федорович</div>
+                                
+                            </div>
+                            <div class="team__item-info">
+                                <div class="team__item-jobtitle">Главный технолог</div>
+                                <div class="team__item-discription">
+                                    Отвечает за вкусовые качества
+                                    и калорийность.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+                            <div class="team__avatar">
+                                <img src="./img/team/2.png" alt="boris" class="team__avatar-img">
+                            </div>
+                            <div class="team__item-title">
+                                <div class="team__item-name">Алла Иванова</div>
+                                
+                            </div>
+                            <div class="team__item-info">
+                                <div class="team__item-jobtitle">Специалист по упаковке
+                                </div>
+                                <div class="team__item-discription">
+                                    Автор запоминающегося стиля
+                                    наших батончиков.
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+                            <div class="team__avatar">
+                                <img src="./img/team/3.png" alt="boris" class="team__avatar-img">
+                            </div>
+                            <div class="team__item-title">
+                                <div class="team__item-name">Кирилл Матросов</div>
+                            
+                            </div>
+                            <div class="team__item-info">
+                                <div class="team__item-jobtitle">PR, маркетинг
+                                </div>
+                                <div class="team__item-discription">
+                                    По всем вопросам сотрудничества
+                                    и рекламы писать только Миле.
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+                            <div class="team__avatar">
+                                <img src="./img/team/4.png" alt="boris" class="team__avatar-img">
+                            </div>
+                            <div class="team__item-title">
+                                <div class="team__item-name">Мила Рыжкова</div>
+                              
+                            </div>
+                            <div class="team__item-info">
+                                <div class="team__item-jobtitle">Оператор</div>
+                                <div class="team__item-discription">
+                                    Разработал дизан
+                                    наушников beats solo 3.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="team__list team__list--column">
+                        <li class="team__item">
+
+                            <div class="team__item-title">
+                                <div class="team__item-name">Борис Федорович</div>
+                                
+                            </div>
+                            <div class="team__item-info">
+                                <div class="team__avatar">
+                                    <img src="./img/team/1.png" alt="boris" class="team__avatar-img">
+                                </div>
+                                <div class="team__item-jobtitle">Главный технолог</div>
+                                <div class="team__item-discription">
+                                    Отвечает за вкусовые качества
+                                    и калорийность.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+
+                            <div class="team__item-title">
+                                <div class="team__item-name">Алла Иванова</div>
+                              
+                            </div>
+                            <div class="team__item-info">
+                                <div class="team__avatar">
+                                    <img src="./img/team/2.png" alt="boris" class="team__avatar-img">
+                                </div>
+                                <div class="team__item-jobtitle">Специалист по упаковке
+                                </div>
+                                <div class="team__item-discription">
+                                    Автор запоминающегося стиля
+                                    наших батончиков.
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+
+                            <div class="team__item-title">
+                                <div class="team__item-name">Кирилл Матросов</div>
+                                
+                            </div>
+                            <div class="team__item-info">
+                                <div class="team__avatar">
+                                    <img src="./img/team/3.png" alt="boris" class="team__avatar-img">
+                                </div>
+                                <div class="team__item-jobtitle">PR, маркетинг
+                                </div>
+                                <div class="team__item-discription">
+                                    По всем вопросам сотрудничества
+                                    и рекламы писать только Миле.
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+
+                            <div class="team__item-title">
+                                <div class="team__item-name">Мила Рыжкова</div>
+                               
+                            </div>
+                            <div class="team__item-info">
+                                <div class="team__avatar">
+                                    <img src="./img/team/4.png" alt="boris" class="team__avatar-img">
+                                </div>
+                                <div class="team__item-jobtitle">Оператор</div>
+                                <div class="team__item-discription">
+                                    Разработал дизан
+                                    наушников beats solo 3.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
             <section class="reviews section">
                 <div class="container reviews__container">
                     <h1 class="main__title main__titile--reviews">отзывы</h1>
-                    <div class="review">
-                        <div class="avatar">
-                            <img src="./img/reviews/user1.png" alt="user1" class="avatar__img">
-                        </div>
-                        <div class="review__content">
-                            <div class="review__title">Отличный звук</div>
-                            <p class="review__content-text">Я ем малыми порциями, но часто. Это повышает мою
-                                продуктивность
-                                в разы. В течение дня сижу за компьютером и часто отходить в кафе или на кухню просто не
-                                могу себе позволить. А батончик – он всегда под рукой. Это приятно и удобно. </p>
-                            <div class="review__username">Билли Айлиш</div>
-                        </div>
-                    </div>
-                    <div class="reviews__pager">
+                    <ul class="review__list">
+                        <li class="review">
+                            <div class="avatar">
+                                <img src="./img/reviews/user1.png" alt="user1" class="avatar__img">
+                            </div>
+                            <div class="review__content">
+                                <div class="review__title">Отличный звук</div>
+                                <p class="review__content-text">Я ем малыми порциями, но часто. Это повышает мою
+                                    продуктивность
+                                    в разы. В течение дня сижу за компьютером и часто отходить в кафе или на кухню
+                                    просто не
+                                    могу себе позволить. А батончик – он всегда под рукой. Это приятно и удобно. </p>
+                                <div class="review__username">Билли Айлиш</div>
+                            </div>
+                        </li>
+                        <li class="review">
+                            <div class="avatar">
+                                <img src="./img/reviews/user2.png" alt="user1" class="avatar__img">
+                            </div>
+                            <div class="review__content">
+                                <div class="review__title">Крутой дизайн</div>
+                                <p class="review__content-text">После тренировок всегда хочется быстро закинуться чем-то
+                                    белковым, потому что до дома ещё нужно доехать. А кушать хочется. Протеиновые
+                                    батончики всегда выручают в этом плане. Спасибо производителю за этот качественный и
+                                    экологичный продукт. </p>
+                                <div class="review__username">Вадим Грачев</div>
+                            </div>
+                        </li>
+                        <li class="review">
+                            <div class="avatar">
+                                <img src="./img/reviews/user3.png" alt="user1" class="avatar__img">
+                            </div>
+                            <div class="review__content">
+                                <div class="review__title">На долго хватает заряда</div>
+                                <p class="review__content-text">Батончики понравились. На мой взгляд слегка завышена
+                                    цена по сравнению с конкурентами, однако, как говорится – оно того стоит. Нравится
+                                    носить с собой, нравится держать в руке. Ну и конечно же, кушать. Идеально утоляют
+                                    голод, хоть и не надолго. Через час уже ем ещё один. Но это скорее плюс, чем минус.
+                                </p>
+                                <div class="review__username">Мария Орлова</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <div class="bx-custom-pager">
+                        <ul>
+                            <li><a data-slide-index="0" href="">01</a></li>
+                            <li><a data-slide-index="1" href="">02</a></li>
+                            <li><a data-slide-index="2" href="">03</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="reviews__pager bx-custom-pager">
                         <ul class="reviews__pager-list">
-                            <li class="review__pager-item review__pager-item--active">
-                                <a href="" class="review__pager-link"><img src="./img/reviews/user1.png" alt="user1"
-                                        class="review__pager-image"></a>
+                            <li class="review__pager-item ">
+                                <a data-slide-index="0" href="" class="review__pager-link"><img
+                                        src="./img/reviews/user1.png" alt="user1" class="review__pager-image"></a>
                             </li>
                             <li class="review__pager-item ">
-                                <a href="" class="review__pager-link"><img src="./img/reviews/user2.png" alt="user2"
-                                        class="review__pager-image"></a>
+                                <a data-slide-index="1" href="" class="review__pager-link"><img
+                                        src="./img/reviews/user2.png" alt="user2" class="review__pager-image"></a>
                             </li>
                             <li class="review__pager-item ">
-                                <a href="" class="review__pager-link"><img src="./img/reviews/user3.png" alt="user3"
-                                        class="review__pager-image"></a>
+                                <a data-slide-index="2" href="" class="review__pager-link"><img
+                                        src="./img/reviews/user3.png" alt="user3" class="review__pager-image"></a>
                             </li>
                         </ul>
                     </div>
@@ -475,11 +770,20 @@
         </div>
     </div>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/team.js"></script>
+    <script src="./js/slider.js"></script>
+    
+    <script src="./js/reviews.js"></script>
 </body>
 
 
 
 
 </html>
-<script src="./js/script.js"></script>

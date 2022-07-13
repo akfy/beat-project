@@ -60,7 +60,9 @@ $(".form").submit(e => {
     request.always(data => {
       Fancybox.show([{
         src: "#modal",
-        type: "inline"
+        type: "inline",
+        openSpeed: 1000,
+        openEffect: 'elastic'
       }]);
     })
 

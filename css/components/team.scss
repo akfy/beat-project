@@ -132,6 +132,7 @@
     align-items: center;
     margin-bottom: rem(11px);
     position: relative;
+    cursor: pointer;
     &::after{
         position: absolute;
         content: "";

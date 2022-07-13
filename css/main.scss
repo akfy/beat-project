@@ -5,7 +5,7 @@ $baseFontSize: 16px;
 //brakepoints
 $tablets: 768px;
 $phones: 480px;
-
+$z-index-fixed-menu:100;
 
 
 
@@ -36,3 +36,6 @@ $phones: 480px;
 @import "components/offer";
 @import "components/team";
 @import "components/modal";
+@import "components/products-menu";
+@import "components/player";
+@import "components/fixed-menu";

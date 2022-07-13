@@ -10,12 +10,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: rem(86px);
+    height: 5vh;
+    @include phones {
+        height: 10vh;
+        justify-content: center;
+    }
 }
 @include phones {
     .footer__container {
         flex-direction: column;
-        padding: rem(20px) 0 rem(31px) 0;
+        padding: 0;
     }
     .footer__contacts{
         margin-bottom: rem(7px);
